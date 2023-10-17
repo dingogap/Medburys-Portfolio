@@ -14,3 +14,6 @@
 12. Updated CSS
 13. Updated comments
 14. Remove ._ files
+15. Issue with Git - had to delete .git folder, git init & deploy to a new repository - problem caused after disk fault
+16. Git Issue prevented Netlify Deployment - had to create new Netlify App
+17. Updating README.md to use new Netlify Deployment

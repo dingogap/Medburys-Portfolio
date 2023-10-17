@@ -28,5 +28,5 @@ If you have questions about this project or would like more information you can 
   
 You can see more of my work in my [Github Repository](https://github.com/dingogap).
 
-[def1]: https://lambent-bublanina-fccd83.netlify.app/
+[def1]: https://precious-babka-8d88c3.netlify.app/
 [def2]: https://github.com/dingogap/medburys-portfolio
