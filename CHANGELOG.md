@@ -18,3 +18,4 @@
 16. Git Issue prevented Netlify Deployment - had to create new Netlify App
 17. Updating README.md to use new Netlify Deployment
 18. Updated Links in Footer to use Link
+19. Added Key to Footer Link code

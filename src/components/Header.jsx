@@ -7,7 +7,7 @@ export default function Header() {
     <header>
       <nav>
         <div className="nav-wrapper container">
-          <Link to="/" className="brand-logo">Peter Medbury</Link>
+          <Link to="/about" className="brand-logo">Peter Medbury</Link>
           <Navbar/>
         </div>
       </nav>

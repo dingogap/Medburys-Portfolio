@@ -28,9 +28,9 @@ export default function Nav({ links }) {
     <ul id='nav-mobile' className='right'>
       {pageNav.map((page, index) => (
         <li key={page.id}>
+          {console.log('"'+currentPage+'" - "'+page.to+'"' )}
           <Link
             to={page.to}
-
             className={currentPage === page.to ? 'active' : ''}
           >
             {page.to.replace('/', '').charAt(0).toUpperCase() +

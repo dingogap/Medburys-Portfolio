@@ -18,7 +18,7 @@ export default function Footer() {
       <div className='container'>
         <div className='links'>
           {proLinks.map((item, index) => (
-            <Link to={item.href} target='_blank'>
+            <Link to={item.href} target='_blank' key={item.id}>
               {item.name}
             </Link>
           ))}
