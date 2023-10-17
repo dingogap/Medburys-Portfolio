@@ -1,23 +1,28 @@
 //Display Page Footer
+import { Link } from 'react-router-dom';
+const proLinks = [
+  {
+    id: 0,
+    href: 'https://github.com/dingogap',
+    name: 'GitHub',
+  },
+  {
+    id: 1,
+    href: 'https://www.linkedin.com/in/peter-medbury-22aa7b35/',
+    name: 'Linked In',
+  },
+];
 export default function Footer() {
   return (
-    <footer className="page-footer">
-      <div className="container">
-        <div className="links">
-          {/* <a href="tel:+61 408 635 759"> +61 408 635 759</a>
-          <a href="mailto:peter.medbury@dingogap.net.au">
-            peter.medbury@dingogap.net.au
-          </a> */}
-          <a href="https://github.com/dingogap" target="_blank">
-            GitHub
-          </a>
-          <a
-            href="https://www.linkedin.com/in/peter-medbury-22aa7b35/"
-            target="_blank"
-          >
-            Linked In
-          </a>
-          <span className="copyright">© 2023 - Peter Medbury</span>
+    <footer className='page-footer'>
+      <div className='container'>
+        <div className='links'>
+          {proLinks.map((item, index) => (
+            <Link to={item.href} target='_blank'>
+              {item.name}
+            </Link>
+          ))}
+          <span className='copyright'>© 2023 - Peter Medbury</span>
         </div>
       </div>
     </footer>

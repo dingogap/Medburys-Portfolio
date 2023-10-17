@@ -17,3 +17,4 @@
 15. Issue with Git - had to delete .git folder, git init & deploy to a new repository - problem caused after disk fault
 16. Git Issue prevented Netlify Deployment - had to create new Netlify App
 17. Updating README.md to use new Netlify Deployment
+18. Updated Links in Footer to use Link
