@@ -11,7 +11,7 @@ This webpage is built with React and Vite.
 ## Table of Contents
 * [Link to Netlify Deployment](#walkthrough-video-demonstration)
 * [GitHub Repo URL](#github-repo-url)
-* [ScreenShot]
+* [ScreenShot](#screenshot)
 * [Questions](#questions)
 
 ## Link to Netlify Deployment
