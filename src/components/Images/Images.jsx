@@ -35,8 +35,6 @@ const Portfolio = [
   },
   {
     id: '4',
-    href: '#',
-    alt: 'Fit Connect Pro',
     title: 'Fit Connect Pro',
     tech: 'HTML/CSS/JS/MySQL/Express/FullCalendar',
     image: new URL('./fitConnectPro.jpg', import.meta.url).href,
