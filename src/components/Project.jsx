@@ -10,14 +10,22 @@ export default function Project() {
           key={project.id}
           className={'flex-item card' + (parseInt(project.id) + 1)}
         >
-          <Link to={project.href} target='_blank'>
+          {project.href ? (
+            <Link to={project.href} target='_blank'>
+              <img src={project.image} alt={project.alt} />
+            </Link>
+          ) : (
             <img src={project.image} alt={project.alt} />
-          </Link>
+          )}
           <div className={'text' + (parseInt(project.id) + 1)}>
             <p className='title'>
-              <Link to={project.href} target='_blank'>
-                {project.title}
-              </Link>
+              {project.href ? (
+                <Link to={project.href} target='_blank'>
+                  {project.title}
+                </Link>
+              ) : (
+                project.title
+              )}
               {project.github ? (
                 <Link to={project.github} target='_blank'>
                   <img src={githubLogo} width='30' height='30' />
