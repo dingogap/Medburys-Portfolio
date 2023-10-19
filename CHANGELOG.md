@@ -19,3 +19,4 @@
 17. Updating README.md to use new Netlify Deployment
 18. Updated Links in Footer to use Link
 19. Added Key to Footer Link code
+20. Created Project Component & rendered it in the Portfolio Page
