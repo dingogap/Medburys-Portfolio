@@ -32,6 +32,8 @@ const Portfolio = [
     title: 'Movie Search',
     tech: 'HTML/CSS/JS/jQuery/APIs',
     image: new URL('./movieSearch.jpg', import.meta.url).href,
+    github: 'https://github.com/dingogap/moviesearch'
+
   },
   {
     id: '4',
@@ -40,6 +42,7 @@ const Portfolio = [
     title: 'Fit Connect Pro',
     tech: 'HTML/CSS/JS/MySQL/Express/FullCalendar',
     image: new URL('./fitConnectPro.jpg', import.meta.url).href,
+    github: 'https://github.com/dingogap/Fit-Connect-Pro'
   },
   {
     id: '5',
@@ -48,6 +51,7 @@ const Portfolio = [
     title: 'Weather Dashboard',
     tech: 'HTML/CSS/JS/jQuery/APIs',
     image: new URL('./weatherDashboard.jpg', import.meta.url).href,
+    github: 'https://github.com/dingogap/Weather-Dashboard'
   },
   {
     id: '6',

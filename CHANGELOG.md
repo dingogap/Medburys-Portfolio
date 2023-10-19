@@ -20,3 +20,5 @@
 18. Updated Links in Footer to use Link
 19. Added Key to Footer Link code
 20. Created Project Component & rendered it in the Portfolio Page
+21. Use GitHub and Linked In Icons in the Footer
+22. Added GitHub Icon & Link to Github Project to websites in GitHub 

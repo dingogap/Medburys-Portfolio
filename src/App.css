@@ -15,7 +15,7 @@ body {
 
 main {
   display: flex;
-  min-height: calc(100vh - 124px);
+  min-height: calc(100vh - 137px);
   flex-direction: column;
   background-color: var(--colour-background);
 }
@@ -129,6 +129,19 @@ nav {
   margin-left: 15px;
 }
 
+p.title {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.title img {
+  opacity: 1 !important;
+  border: none;
+  padding-left: 8px;
+  margin-top: -2px;
+}
+
 input::placeholder {
   color:dimgrey
 }
@@ -139,6 +152,7 @@ textarea::placeholder {
 
 .page-footer {
   padding-bottom: 20px;
+  align-items: center;
   /* margin-top: -87px; */
   background-color: var(--colour-header);
 }
@@ -149,6 +163,8 @@ textarea::placeholder {
   justify-content: space-around;
 }
 
+
+
 .links a {
   font-size: small;
   color: white;
@@ -157,6 +173,7 @@ textarea::placeholder {
 .copyright {
   font-size: smaller;
   color: white;
+  margin-top: 10px;
 }
 .col {
   color: var(--colour-border);
