@@ -3,18 +3,19 @@
 const Portfolio = [
   {
     id: '0',
+    title: 'Dust Lanes',
+    tech: 'MERN Stack',
+    image: new URL('./dustLanes.jpg', import.meta.url).href,
+    github: 'https://github.com/dingogap/dust-lanes',
+  },
+   {
+    id: '1',
     title: 'The Tech Blog',
     tech: 'HTML/CSS/JS/Liquid',
     image: new URL('./techBlog.jpg', import.meta.url).href,
     github: 'https://github.com/dingogap/the-tech-blog',
   },
-  {
-    id: '1',
-    title: 'Note Taker',
-    tech: 'HTML/CSS/JS/Liquid',
-    image: new URL('./noteTaker.jpg', import.meta.url).href,
-    github: 'https://github.com/dingogap/A-PWA-Text-Editor',
-  },
+ 
   {
     id: '2',
     alt: 'Just Another Text Editor',
